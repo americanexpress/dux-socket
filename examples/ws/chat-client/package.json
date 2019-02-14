@@ -1,0 +1,21 @@
+{
+  "name": "chat-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ajv": "^6.2.1",
+    "dux-socket": "^1.0.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.1",
+    "redux": "^3.7.2",
+    "ws": "^5.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
