@@ -1,0 +1,11 @@
+language: node_js
+deploy:
+  provider: npm
+  script: npm publish
+  email: william.h.bishop@aexp.com
+  on:
+    tags: true
+    branch: master
+    repo: americanexpress/dux-socket
+  api_key:
+    secure: p4ctgFxk5yoURFkYVlPjK7ITZM8XyWT++VFFYngeVSRCGtk9a9kilsV2noY1m6Fo1AS5iMavHtx8gyRdTM4Vk5Rg5sCq4d3WV6hR0QHb0KPkUXvlBwEAJ/+x3fBx0qZ6YaR6HHZNBdHu4d5KvwrDgeeEI4iqF9by4r+HVDJXhI7ML4hu0dc0Nub+jXpDPHKfLAN23UXOPoLgHArvfceo4StfXjkI5Hm697ZzaHrxKpTxRTZ2jgUqQT6EzWIV5gCM5klTWCzRSY11K8doKxg1LTH6pNf4qg5U1xUVyYzhzsXqH0EGjP+nitrSTZpOlWwIlKzsPkudnT5o7QGeXySQuM9lfmKP/mio8elLmfkusT8p9ruSuG3PZWUTF22flQSiWtLN1rYhLQazWJ+fJh9tqnrJOus109JsHflMUuYmdESpJYXMSd/RBWKv/ZboKfM+8Kgh1fHfWDfvpJwqd00yXrqz+XqmqPGWIqbM7/hql/aQDQHEPdytQonEF17+Emb8oGaM0QsB5T2BD4MYDGIezTXQviYRu71UDC90ss02qtvV8H1XjfR7LosPeoWgHm/gYQbV5RzZ6oK8P3CKjttb84MJ7SQBXK5gjeM5XaFCOk8Zfi0JmX2XLhdTYEJl/05fKHeTMwvbsyw/zp6XndA8gI6GforrK4vCs62s9nQbqzs=
