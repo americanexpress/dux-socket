@@ -1,4 +1,4 @@
-# dux-socket
+# dux-socket [![Build Status](https://travis-ci.org/americanexpress/dux-socket.svg?branch=master)](https://travis-ci.org/americanexpress/dux-socket)
 
 ```
                  _,,...,_
