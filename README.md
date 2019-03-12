@@ -27,7 +27,7 @@
 Flexible WebSocket middleware for Redux applications. Maps inbound WebSocket events to Redux actions. Exposes action creators for dispatching actions that should be emitted as socket messages. Works with __Socket.IO__, as well as native WebSocket implementations!
 
 ## Installation
-    npm install --save dux-socket
+    npm install dux-socket
 
 ## Usage
 
